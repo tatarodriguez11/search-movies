@@ -17,7 +17,7 @@ const MovieSlider = ({ movies }: any) => {
     <Slider {...settings}>
       {movies.map((movie: any) => {
         return (
-          <div className="slide" key={movie.sys.id}>
+          <div className="slide">
             <img className="slide-image"  src={movie.fields.imageUrl} alt={movie.fields.title} />
             <h3 className="slide-title">{movie.fields.title}</h3>
           </div>

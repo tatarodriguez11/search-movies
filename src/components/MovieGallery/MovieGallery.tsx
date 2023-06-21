@@ -15,7 +15,7 @@ const MovieGallery = ({banners}) => {
     <Slider {...settings}>
       {banners.map((banner: any) => {
         return (
-          <div className="gallerySlide" key={banner.sys.id}>
+          <div className="gallerySlide">
             <img className="gallerySlide-image"  src={banner.fields.banner} />
           </div>
         );

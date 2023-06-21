@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MovieSlider renders correctly with movies 1`] = `
+<ul
+  class="slick-dots"
+  style="display: block;"
+>
+  <li
+    class="slick-active"
+  >
+    <button>
+      1
+    </button>
+  </li>
+  <li
+    class=""
+  >
+    <button>
+      2
+    </button>
+  </li>
+</ul>
+`;
