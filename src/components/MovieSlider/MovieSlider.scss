@@ -1,0 +1,16 @@
+.slide {
+  display: flex!important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .slide-title {
+      text-align: center;
+  }
+
+  .slide-image {
+      max-width: 300px;
+      display: inline;
+  }
+}
+
