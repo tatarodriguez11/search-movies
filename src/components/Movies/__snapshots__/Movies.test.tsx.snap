@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Movies component should match the snapshot when there are movies 1`] = `
+<div>
+  <ul
+    aria-role="list"
+    class="movies"
+  >
+    <li
+      class="movie"
+    >
+      <a
+        href="/movies/1"
+      >
+        <h3
+          class="movie__title"
+        >
+          The Godfather
+        </h3>
+        <p
+          class="movie__year"
+        >
+          1972
+        </p>
+        <img
+          alt="The Godfather"
+          class="movie__image"
+          src="https://example.com/movie.jpg"
+        />
+      </a>
+    </li>
+    <li
+      class="movie"
+    >
+      <a
+        href="/movies/2"
+      >
+        <h3
+          class="movie__title"
+        >
+          Pulp Fiction
+        </h3>
+        <p
+          class="movie__year"
+        >
+          1994
+        </p>
+        <img
+          alt="Pulp Fiction"
+          class="movie__image"
+          src="https://example.com/movie.jpg"
+        />
+      </a>
+    </li>
+    <li
+      class="movie"
+    >
+      <a
+        href="/movies/3"
+      >
+        <h3
+          class="movie__title"
+        >
+          The Shawshank Redemption
+        </h3>
+        <p
+          class="movie__year"
+        >
+          1994
+        </p>
+        <img
+          alt="The Shawshank Redemption"
+          class="movie__image"
+          src="https://example.com/movie.jpg"
+        />
+      </a>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Movies component should match the snapshot when there are no movies 1`] = `
+<div>
+  <p>
+    No se encontraron películas para esta búsqueda
+  </p>
+</div>
+`;

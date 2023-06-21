@@ -1,0 +1,18 @@
+.movie {
+  text-align: center;
+  background-color: var(--form-text);
+  padding: 15px 20px;
+  border-radius: 10px;
+  width: 220px;
+
+  .movie__title,
+  .movie__year {
+    margin: 0;
+    color: black;
+  }
+
+  .movie__image {
+    border-radius: 8px;
+    margin-top: 16px;
+  }
+}

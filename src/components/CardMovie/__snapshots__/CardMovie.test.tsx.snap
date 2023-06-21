@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardMovie renders correctly 1`] = `
+<DocumentFragment>
+  <li
+    class="movie"
+  >
+    <a
+      href="/movies/1"
+    >
+      <h3
+        class="movie__title"
+      >
+        A Movie
+      </h3>
+      <p
+        class="movie__year"
+      >
+        2022
+      </p>
+      <img
+        alt="A Movie"
+        class="movie__image"
+        src="https://example.com/movie.jpg"
+      />
+    </a>
+  </li>
+</DocumentFragment>
+`;

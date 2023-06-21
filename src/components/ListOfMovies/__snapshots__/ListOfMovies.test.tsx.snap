@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ListOfMovies> matches snapshot 1`] = `
+<DocumentFragment>
+  <ul
+    aria-role="list"
+    class="movies"
+  >
+    <li
+      class="movie"
+    >
+      <a
+        href="/movies/1"
+      >
+        <h3
+          class="movie__title"
+        >
+          Movie 1
+        </h3>
+        <p
+          class="movie__year"
+        >
+          2021
+        </p>
+        <img
+          alt="Movie 1"
+          class="movie__image"
+          src="https://www.example.com/poster1.png"
+        />
+      </a>
+    </li>
+    <li
+      class="movie"
+    >
+      <a
+        href="/movies/2"
+      >
+        <h3
+          class="movie__title"
+        >
+          Movie 2
+        </h3>
+        <p
+          class="movie__year"
+        >
+          2020
+        </p>
+        <img
+          alt="Movie 2"
+          class="movie__image"
+          src="https://www.example.com/poster2.png"
+        />
+      </a>
+    </li>
+  </ul>
+</DocumentFragment>
+`;

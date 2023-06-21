@@ -14,3 +14,10 @@ export interface MovieDetailResponse {
 export interface movieService {
   search: string
 }
+
+export interface Film {
+  id: string,
+  title: string,
+  year: string,
+  image: string,
+}

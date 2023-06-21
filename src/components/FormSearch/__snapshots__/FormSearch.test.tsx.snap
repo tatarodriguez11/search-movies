@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormSearch matches the snapshot 1`] = `
+<div>
+  <header>
+    <form
+      class="search__form"
+      name="form"
+    >
+      <fieldset
+        class="search__form-container"
+      >
+        <input
+          class="search__form-input"
+          data-testid="search-input"
+          name="query"
+          placeholder="Avengers, Star Wars, The Matrix..."
+          style="border-color: transparent;"
+          value=""
+        />
+        <button
+          class="search__form-btn"
+          type="submit"
+        >
+          Buscar
+        </button>
+      </fieldset>
+      <fieldset
+        class="search__form-sort--container"
+      >
+        <input
+          id="sort"
+          type="checkbox"
+        />
+        <label
+          for="sort"
+        >
+          Ordenar resultados
+        </label>
+      </fieldset>
+    </form>
+    <hr />
+  </header>
+</div>
+`;
