@@ -1,0 +1,15 @@
+.detail__page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+  margin: 60px auto 0;
+
+  .detail__back {
+    padding: 30px;
+    border: 1px dashed var(--text-muted);
+    margin-top: 40px;
+  }
+}

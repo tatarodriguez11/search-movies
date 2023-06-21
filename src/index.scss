@@ -36,7 +36,8 @@ body {
 
 a {
   color: var(--links);
-  text-shadow: 0 0 2px var(--form-text),
+  text-shadow: 0 0 2px var(--form-text);
+  text-decoration: none;
 }
 
 

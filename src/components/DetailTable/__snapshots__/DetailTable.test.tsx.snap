@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DetailTable matches the snapshot 1`] = `
+<div>
+  <div
+    class="table__container"
+  >
+    <img
+      alt="A Movie"
+      class="table__poster"
+      src="https://example.com/poster.jpg"
+    />
+    <p
+      class="table__description"
+    >
+      A plot summary
+    </p>
+    <div
+      class="table__content-wrapper"
+    >
+      <table>
+        <tr
+          class="table__content-container"
+        >
+          <td>
+             
+            <strong>
+              Director:
+            </strong>
+              
+            John Doe
+          </td>
+          <td>
+            <strong>
+              Actors:
+            </strong>
+              
+            Actor 1, Actor 2
+          </td>
+          <td>
+            <strong>
+              Genre:
+            </strong>
+             
+            Action
+          </td>
+          <td>
+            <strong>
+              Country:
+            </strong>
+             
+            USA
+          </td>
+          <td>
+            <strong>
+              Language:
+            </strong>
+              
+            English
+          </td>
+          <td>
+            <strong>
+              Year:
+            </strong>
+             
+            2022
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+`;
