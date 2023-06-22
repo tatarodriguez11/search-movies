@@ -5,6 +5,14 @@
   border-radius: 10px;
   width: 220px;
 
+  @media screen and (max-width: 800px) {
+    margin: 0 auto;
+  }
+
+  .movie__title {
+    color: white;
+  }
+
   .movie__title,
   .movie__year {
     margin: 0;
@@ -13,6 +21,25 @@
 
   .movie__image {
     border-radius: 8px;
-    margin-top: 16px;
+    margin-top: 16px; max-width: 100%;
+    height: auto;
+  }
+
+  a {
+    text-decoration: none;
+    color: #0076d1;
+    color: var(--links);
+    text-shadow: none;
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    a {
+      color: #41adff;
+      color: var(--links);
+    }
+  }
+  
+  a:hover {
+    text-decoration: underline;
   }
 }

@@ -94,3 +94,56 @@ input {
   border-radius: 6px;
   outline: none;
 }
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+button,
+input,
+textarea,
+footer,
+summary,
+strong {
+  color: var(--form-text);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 12px;
+  margin-top: 24px;
+}
+
+h3 {
+  color: #000;
+  color: var(--text-bright);
+}
+
+@media (prefers-color-scheme: dark) {
+
+  h3 {
+  color: #fff;
+  color: var(--text-bright);
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+strong,
+th {
+  font-weight: 600;
+}

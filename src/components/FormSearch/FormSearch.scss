@@ -4,7 +4,8 @@
   justify-content: center;
 }
 
-.search__form-container, .search__form-sort--container{
+.search__form-container,
+.search__form-sort--container {
   border: none;
 }
 
@@ -17,8 +18,84 @@
 
 .search__form-btn {
   margin-left: 2em;
+  background-color: #d0cfcf;
+  background-color: var(--button-base);
+  padding-right: 30px;
+  padding-left: 30px;
+  color: var(--text-bright);
 }
 
-.search__form-error{
+@media (prefers-color-scheme: dark) {
+  .search__form-btn {
+    background-color: #0c151c;
+    background-color: var(--button-base);
+  }
+}
+
+.search__form-error {
   color: red;
+}
+
+.search__form-input {
+  transition:
+    background-color 0.1s linear,
+    border-color 0.1s linear,
+    color 0.1s linear,
+    box-shadow 0.1s linear,
+    transform 0.1s ease;
+  transition:
+    background-color var(--animation-duration) linear,
+    border-color var(--animation-duration) linear,
+    color var(--animation-duration) linear,
+    box-shadow var(--animation-duration) linear,
+    transform var(--animation-duration) ease;
+}
+
+@media (prefers-color-scheme: dark) {
+
+  .search__form-input {
+  transition:
+    background-color 0.1s linear,
+    border-color 0.1s linear,
+    color 0.1s linear,
+    box-shadow 0.1s linear,
+    transform 0.1s ease;
+  transition:
+    background-color var(--animation-duration) linear,
+    border-color var(--animation-duration) linear,
+    color var(--animation-duration) linear,
+    box-shadow var(--animation-duration) linear,
+    transform var(--animation-duration) ease;
+  }
+}
+
+.search__form-input {
+  color: #1d1d1d;
+  color: var(--form-text);
+  background-color: #efefef;
+  background-color: var(--background);
+  font-family: inherit;
+  font-size: inherit;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+}
+
+@media (prefers-color-scheme: dark) {
+
+  .search__form-input {
+  background-color: #161f27;
+  background-color: var(--background);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+
+  .search__form-input {
+  color: #fff;
+  color: var(--form-text);
+  }
 }

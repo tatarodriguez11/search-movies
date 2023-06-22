@@ -4,20 +4,26 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-
+  color: var(--text-bright);
+  
+  .loginContainer__title {
+      color: var(--text-bright);
+  }
+    
   .loginContainer__form {
-      align-items: flex-start;
-
-      .loginContainer__form--label {
-          margin-bottom: 0.5rem;
-      }
-
-      .loginContainer__form--input {
-          margin-bottom: 1rem;
-      }
-
-      .loginContainer__form--button {
-          width: 100%;
-      }
+    align-items: flex-start;
+    
+    .loginContainer__form--label {
+      margin-bottom: 0.5rem;
+    }
+    
+    .loginContainer__form--input {
+      margin-bottom: 1rem;
+    }
+    
+    .loginContainer__form--button {
+      width: 100%;
+      color: var(--text-bright);
+    }
   }
 }
