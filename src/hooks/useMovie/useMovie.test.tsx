@@ -1,4 +1,3 @@
-import React from 'react';
 import { renderHook, act } from '@testing-library/react-hooks';
 import { useMovie } from './useMovie';
 import { searchMovieDetail } from '../../services/movies';

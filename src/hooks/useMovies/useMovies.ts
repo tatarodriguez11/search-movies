@@ -22,7 +22,6 @@ export function useMovies({ search, sort }: useMoviesProps) {
     } catch (e: any) {
       setError(e.message);
     } finally {
-      // tanto en el try como en el catch
       setLoading(false);
     }
   }, []);
@@ -33,5 +32,5 @@ export function useMovies({ search, sort }: useMoviesProps) {
       : movies;
   }, [sort, movies]);
 
-  return { movies: sortedMovies, getMovies, loading };
+  return { movies: sortedMovies, getMovies, loading, error };
 }
